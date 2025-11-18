@@ -7,15 +7,15 @@ use mpl_core::{
 
 use crate::{error::MPLXCoreError, state::CollectionAuthority};
 
-// #[derive(Accounts)]
-// pub struct ThawNft<'info> {
-//    // TODO
-// }
+#[derive(Accounts)]
+pub struct ThawNft<'info> {
+   // TODO
+}
 
-// impl<'info> ThawNft<'info> {
-//     pub fn thaw_nft(&mut self) -> Result<()> {
-//         // TODO
+impl<'info> ThawNft<'info> {
+    pub fn thaw_nft(&mut self) -> Result<()> {
+        // TODO
 
-//         Ok(())
-//     }
-// }
+        Ok(())
+    }
+}
